@@ -1,0 +1,25 @@
+# Python 3.10, CUDA 11.8. Install PyTorch first (see README):
+#   pip install torch==2.2.1 torchvision==0.17.1 --index-url https://download.pytorch.org/whl/cu118
+# The code also runs with ultralytics 8.3.78.
+torch>=2.1,<2.3          # diffusers 0.32 needs torch >= 2.1
+torchvision>=0.16,<0.18
+ultralytics==8.1.34
+flwr[simulation]==1.11.1
+ray==2.10.0
+opacus==1.5.2          # RDP accountant for (epsilon, delta)
+numpy<2
+pandas
+matplotlib
+opencv-python
+pillow
+tqdm
+pyyaml
+
+# generative baselines (generative_models/)
+diffusers==0.32.1
+transformers==4.47.1
+accelerate==1.2.1
+
+# Eigen-CAM (explainability/, vendored yolo_cam)
+ttach
+jupyter

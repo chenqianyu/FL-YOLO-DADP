@@ -1,0 +1,22 @@
+# Data is not distributed (see README, "Data")
+data/
+
+# Experiment outputs and weights
+runs/
+weights/
+results/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store

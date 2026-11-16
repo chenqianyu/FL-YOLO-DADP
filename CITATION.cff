@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "FL-YOLO-DADP: Federated YOLO with dynamic adaptive differential privacy"
+repository-code: "https://github.com/chenqianyu/FL-YOLO-DADP"
+authors:
+  - family-names: Chen
+    given-names: Qianyu
+  - family-names: Delikoyun
+    given-names: Kerem
+  - family-names: Hayden
+    given-names: Oliver
+  - family-names: Diepold
+    given-names: Klaus
+preferred-citation:
+  type: conference-paper
+  title: "Improved Federated Learning with Differential Privacy for YOLO Detector on Phase Images"
+  authors:
+    - family-names: Chen
+      given-names: Qianyu
+    - family-names: Delikoyun
+      given-names: Kerem
+    - family-names: Hayden
+      given-names: Oliver
+    - family-names: Diepold
+      given-names: Klaus
+  collection-title: "Proceedings of the 12th International Conference of Control Systems, and Robotics (CDSR 2025)"
+  conference:
+    name: "CDSR 2025"
+    city: London
+    country: GB
+  start: "129-1"
+  end: "129-10"
+  year: 2025
+  doi: "10.11159/cdsr25.129"
+  url: "https://www.avestia.com/CDSR2025_Proceedings/files/paper/CDSR_129.pdf"
